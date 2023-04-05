@@ -6,8 +6,8 @@ const client = new Discord.Client({
     Discord.Intents.FLAGS.GUILD_VOICE_STATES,
   ],
 });
-const token = 'MTA4OTIwMjUyNzA2MjQ3NDgxMg.GaoOhu.p2OJLJmJIwJ3fQo6TsDfRrbRJ05_79GHIuV8Ck';
-const channelId = '1075403836287623308';
+const token = 'token';
+const channelId = 'channelID';
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
